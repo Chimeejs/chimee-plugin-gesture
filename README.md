@@ -1,7 +1,5 @@
 # chimee-plugin-gesture
 
-还在开发中...
-
 >该插件是一个基础插件，移动端的插件可以继承它，为这些插件提供手势事件，暴露给上层插件使用
 
 ## install
@@ -36,6 +34,8 @@ const player = new chimee({
 ```
 
 ## 配置
+
+chimee 配置 events 不用在监听 touchstart/ touchmove/touchend 事件中监听以下操作就好了，支持前缀 'w_'(wrap dom), 'c_'(container dom), 'd_'(插件自身 dom)
 
 1. tap
 2. swipe
