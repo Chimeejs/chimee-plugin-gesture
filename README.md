@@ -1,5 +1,7 @@
 # chimee-plugin-gesture
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Chimeejs/chimee-plugin-gesture.svg)](https://greenkeeper.io/)
+
 >该插件是一个基础插件，移动端的插件可以继承它，为这些插件提供手势事件，暴露给上层插件使用
 
 ## install
